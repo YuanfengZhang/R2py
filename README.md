@@ -15,14 +15,15 @@
 |R Bioinformatics Cookbook:<br />Use R and Bioconductor to perform<br />RNAseq, genomics, data visualization,<br />and bioinformatic analysis (English Edition)||EN:978-1789950694|
 |Introduction to Machine Learning with R:<br />Rigorous Mathematical Analysis|	基于R语言的机器学习|EN:978-1491976449<br />CN:978-7519825850|
 
-4. This project assumes the readers are familiar with at least one of the R and Python language.
-5. Only codes and necessary instructions are included in this project. Translation of the whole book is not my initiative.
-6. Principles for translation:
-   + The data visualization codes -> seaborn and matplotlib codes
-   + The data cleaning codes -> polars, numpy, pandas codes.
-   + The statistic codes -> scipy, scikit-learn, statsmodels codes.
+4.There would also be some python code to reproduce elegant plots from scientific articles.
+5. This project assumes the readers are familiar with at least one of the R and Python language.
+6. Only codes and necessary instructions are included in this project. Translation of the whole book is not my initiative.
+7. Principles for translation:
+   + The data visualization code -> seaborn and matplotlib codes
+   + The data cleaning codes     -> polars, numpy, pandas codes.
+   + The statistic codes         -> scipy, scikit-learn, statsmodels codes.
    + Python codes should be based on Python >= 3.11, with detailed comments and correct type hints.
    + Avoid object-oriented programming unless the problem complexity truly demands it.
    + Variable name without meaning is forbidden, including "a", "b", "c", "foo", "bar"...
-7. Please respect authors and publishers by purchasing original editions.
-8. This project is set to begin at Jan 2024. Cooperation is welcome.
+8. Please respect authors and publishers by purchasing original editions.
+9. This project is set to begin at Jan 2024. Cooperation is welcome.
